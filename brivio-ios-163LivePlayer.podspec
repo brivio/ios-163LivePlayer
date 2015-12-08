@@ -16,4 +16,6 @@ Pod::Spec.new do |s|
   s.vendored_libraries  = 'source/**/*.a'
   s.vendored_frameworks  = 'source/**/*.framework'
   s.resources='source/**/*.bundle'
+  s.frameworks='Foundation','OpenGLES','QuartzCore','CoreAudio','CoreGraphics','CoreMedia','AVFoundation','VideoToolBox','AudioToolBox','UIKit'
+  s.libraries='z','bz2'
 end
